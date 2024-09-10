@@ -49,7 +49,7 @@ public class TodoApiController {
 
     }
 
-    @PostMapping("/")
+    @PostMapping("/register")
     public Map<String, Long> register(@RequestBody TodoDTO dto){
 
         Long tno = todoService.register(dto);
