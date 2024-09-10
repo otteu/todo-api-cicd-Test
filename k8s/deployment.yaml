@@ -77,4 +77,4 @@ spec:
 #            claimName: todo-api-test-files
         - name: secret-datasource
           secret:
-            secretName: api-tester-mysql
+            secretName: api-tester-postgresql

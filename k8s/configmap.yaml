@@ -13,4 +13,4 @@ metadata:
 data:
   spring_profiles_active: "dev"
   application_role: "ALL"
-  mysql_filepath: "/usr/src/myapp/datasource/mysql-info.yaml"
+  postgresql_filepath: "/usr/src/myapp/datasource/postgresql-info.yaml"

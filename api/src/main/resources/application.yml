@@ -39,8 +39,8 @@ logging.level:
   org.hibernate.SQL: debug
   org.springframework.security.web: trace
 
-mysql:
-  filepath: "/usr/src/myapp/datasource/mysql-info.yaml"
+#mysql:
+#  filepath: "/usr/src/myapp/datasource/mysql-info.yaml"
 
 #
 #logging.level:
