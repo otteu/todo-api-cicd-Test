@@ -38,9 +38,9 @@ spec:
           ports:
             - containerPort: 9090
               name: http
-#          envFrom:
-#            - configMapRef:
-#                name: todo-api-test-properties
+          envFrom:
+            - configMapRef:
+                name: api-tester-properties
 #          startupProbe:
 #            httpGet:
 #              path: "/startup"
