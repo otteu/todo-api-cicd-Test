@@ -1,4 +1,4 @@
-//package com.todo.db.repository.member;
+package com.todo.api.repository.member;//package com.todo.db.repository.member;
 //
 //import com.todo.db.domain.member.Member;
 //import org.springframework.data.jpa.repository.EntityGraph;

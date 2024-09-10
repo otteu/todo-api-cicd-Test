@@ -2,12 +2,14 @@ package com.todo.api.controller.todo;
 
 import com.todo.api.common.api.Api;
 import com.todo.api.common.error.UserErrorCode;
+import com.todo.api.domain.todo.TodoEntity;
+import com.todo.api.repository.todo.TodoRepository;
+import com.todo.api.search.PageRequestDTO;
+import com.todo.api.search.PageResponseDTO;
 import com.todo.api.service.todo.TodoService;
-import com.todo.db.search.PageResponseDTO;
+
 import com.todo.api.dto.todo.TodoDTO;
-import com.todo.db.domain.todo.TodoEntity;
-import com.todo.db.repository.todo.TodoRepository;
-import com.todo.db.search.PageRequestDTO;
+
 import lombok.RequiredArgsConstructor;
 // import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
@@ -26,6 +28,12 @@ public class TodoApiController {
 
     private final TodoService todoService;
 
+
+
+    @GetMapping("/")
+    public String index() {
+        return "Hello World !!";
+    }
 
     @GetMapping("/{tno}")
     public TodoDTO get(@PathVariable("tno") Long tno){
@@ -75,7 +83,7 @@ public class TodoApiController {
     public void save(){
         String title = "title01";
         String content = "complate01";
-        LocalDate dateTime = LocalDate.now();
+        LocalDateTime dateTime = LocalDateTime.now();
 
         TodoEntity todoEntity = TodoEntity.builder()
                 .title(title)

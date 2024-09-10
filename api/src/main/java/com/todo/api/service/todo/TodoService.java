@@ -1,9 +1,11 @@
 package com.todo.api.service.todo;
 
-import com.todo.db.search.PageResponseDTO;
+
+import com.todo.api.domain.todo.TodoEntity;
 import com.todo.api.dto.todo.TodoDTO;
-import com.todo.db.domain.todo.TodoEntity;
-import com.todo.db.search.PageRequestDTO;
+
+import com.todo.api.search.PageRequestDTO;
+import com.todo.api.search.PageResponseDTO;
 import jakarta.transaction.Transactional;
 
 @Transactional

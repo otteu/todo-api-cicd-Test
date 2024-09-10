@@ -3,17 +3,17 @@ spring:
     name: todo
 
 
-  datasource:
-    url: jdbc:h2:tcp://localhost/D:/java-dve/h2-2024-07-15/todo
-    username: sa
-    password: 1234
-    driver-class-name: org.h2.Driver
-
 #  datasource:
-#    url: jdbc:mysql://192.168.0.48:3306/todo
-#    username: todouser
-#    password: todouser
-#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:h2:tcp://localhost/D:/java-dve/h2-2024-07-15/todo
+#    username: sa
+#    password: 1234
+#    driver-class-name: org.h2.Driver
+
+  datasource:
+    url: jdbc:mysql://192.168.0.48:3306/todo
+    username: todouser
+    password: todouser
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 
 

@@ -1,12 +1,15 @@
 package com.todo.api.service.todo;
 
-import com.todo.db.search.PageResponseDTO;
+
+import com.todo.api.domain.todo.TodoEntity;
 import com.todo.api.dto.todo.TodoDTO;
-import com.todo.db.domain.todo.TodoEntity;
-import com.todo.db.repository.todo.TodoRepository;
-import com.todo.db.search.PageRequestDTO;
+
+import com.todo.api.repository.todo.TodoRepository;
+import com.todo.api.search.PageRequestDTO;
+import com.todo.api.search.PageResponseDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
+
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

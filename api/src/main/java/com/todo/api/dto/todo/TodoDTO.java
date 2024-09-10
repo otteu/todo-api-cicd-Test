@@ -29,6 +29,6 @@ public class TodoDTO {
     // 마감일
     // private LocalDateTime dueDate;
 
-    private LocalDate dueDate;
+    private LocalDateTime dueDate;
 
 }

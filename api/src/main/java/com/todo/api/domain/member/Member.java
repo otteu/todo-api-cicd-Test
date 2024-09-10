@@ -1,4 +1,4 @@
-//package com.todo.db.domain.member;
+package com.todo.api.domain.member;//package com.todo.db.domain.member;
 //
 //import jakarta.persistence.ElementCollection;
 //import jakarta.persistence.Entity;
