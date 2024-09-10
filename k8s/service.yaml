@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: todo
+  name: todo-api-test
+  labels:
+    part-of: k8s-todo
+    component: backend-server
+    name: api-tester
+    instance: todo-api-test
+    version: 1.0.0
+    managed-by: kubectl
+spec:
+  selector:
+    part-of: k8s-todo
+    component: backend-server
+    name: api-tester
+    instance: todo-api-test
+  ports:
+    - port: 80
+      targetPort: http
+      nodePort: 32121
+  type: NodePort
