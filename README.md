@@ -14,25 +14,24 @@ kubernates 에 배포
 ![jenkins](https://github.com/user-attachments/assets/61fe8585-6d0d-4464-8997-e100f1374d14)
 
 source build
-![jenkins](https://github.com/user-attachments/assets/a37b974f-1ba7-4dd2-a1b9-d805c3c780fc)
+![source build](https://github.com/user-attachments/assets/a854c35a-cb3f-4c1e-9f52-5f078cb92038)
 
-image 
-![jenkins](https://github.com/user-attachments/assets/fc0394f5-2e4f-4916-b212-89217ef8c74b)
+image build
+![container build](https://github.com/user-attachments/assets/4b0f86a9-c1ec-4362-a71e-09d845391c25)
 
 kubenates 배포
-![jenkins](https://github.com/user-attachments/assets/a03bdaaa-6441-485e-9a54-3d4ed627fa8d)
+![쿠버네티스 배포](https://github.com/user-attachments/assets/7498e880-533b-4b9d-8bab-aa0467fdfaf7)
 
 ci/cd
-![jenkins](https://github.com/user-attachments/assets/5ac156e9-0389-4a6f-8382-63077292e8f8)
+![CI CD 서버](https://github.com/user-attachments/assets/29bef790-e4e4-4471-bf08-bb537d03dc19)
 
 kubenates
 ![쿠버네티스 서비](https://github.com/user-attachments/assets/a473d462-6bb5-4f85-bfe9-ee8a4ea551bd)
 
-
 insert
-![jenkins](https://github.com/user-attachments/assets/a97402b1-98b9-488e-b5a1-a016879b4f44)
+![insert](https://github.com/user-attachments/assets/2fd2596a-0094-465e-8fe8-34a25669e64c)
 
-![jenkins](https://github.com/user-attachments/assets/3ef714b5-a3fb-4e0a-aefe-28eb65e2b52b)
+![데이터 저장](https://github.com/user-attachments/assets/718ae3b8-dd40-4b99-acb9-0ac92eb46d26)
 
 db
 ![db](https://github.com/user-attachments/assets/a5d9e202-5e06-44a4-b60a-0d1c69446828)
