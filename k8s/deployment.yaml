@@ -71,10 +71,10 @@ spec:
               mountPath: /usr/src/myapp/files/dev
 #            - name: secret-datasource
 #              mountPath: /usr/src/myapp/datasource
-#      volumes:
-#        - name: files
-#          persistentVolumeClaim:
-#            claimName: todo-api-test-files
+      volumes:
+        - name: files
+          persistentVolumeClaim:
+            claimName: todo-api-files
 #        - name: secret-datasource
 #          secret:
 #            secretName: api-tester-postgresql
