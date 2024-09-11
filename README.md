@@ -1,7 +1,9 @@
 
 CI/CD 및 쿠버네티스 실습 
 
-개발 환경 Window, CI/CD 노트북 window virtualbox ubuntu 20.24.6 LTS, kubernates 1대 os : Ubuntu 24.04 LTS
+개발 환경 Window 에서 spring boot 3.3 , jdk 17 개발 진행,
+CI/CD 노트북 os : window 에서 virtualbox ubuntu 20.24.6 LTS 로 docker 및 jenkins 구축,
+kubernates 1대 os : Ubuntu 24.04 LTS 
 
 개발 환경에서 개발후 git으로 push
 ci/cd 환경에서 소스 빌드 후 컨테이너 이미지 생성 하여 docker hub로 업로드 (https://hub.docker.com/repository/docker/otteu/todo-api-test/general)
